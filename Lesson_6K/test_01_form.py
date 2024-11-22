@@ -62,7 +62,7 @@ def test_form():
     actual_class = first_name_element.get_attribute("class")
     print(f"Status first-name: {actual_class}") # вывод в консоль
 
-    assert actual_class
+    assert actual_class == "alert py-2 alert-success"
 
     # last-name
     wait = WebDriverWait(driver, 20)
@@ -70,7 +70,7 @@ def test_form():
     actual_class = last_name_element.get_attribute("class")
     print(f"Status last-name: {actual_class}") # вывод в консоль
 
-    assert actual_class
+    assert actual_class == "alert py-2 alert-success"
 
     # address
     wait = WebDriverWait(driver, 20)
@@ -78,7 +78,7 @@ def test_form():
     actual_class = address_element.get_attribute("class")
     print(f"Status address: {actual_class}") # вывод в консоль
 
-    assert actual_class
+    assert actual_class == "alert py-2 alert-success"
 
     # city
     wait = WebDriverWait(driver, 20)
@@ -86,7 +86,7 @@ def test_form():
     actual_class = city_element.get_attribute("class")
     print(f"Status city: {actual_class}") # вывод в консоль
 
-    assert actual_class
+    assert actual_class == "alert py-2 alert-success"
 
     # country
     wait = WebDriverWait(driver, 20)
@@ -94,7 +94,7 @@ def test_form():
     actual_class = country_element.get_attribute("class")
     print(f"Status country: {actual_class}") # вывод в консоль
 
-    assert actual_class
+    assert actual_class == "alert py-2 alert-success"
 
     # e-mail
     wait = WebDriverWait(driver, 20)
@@ -102,7 +102,7 @@ def test_form():
     actual_class = e_mail_element.get_attribute("class")
     print(f"Status e-mail: {actual_class}") # вывод в консоль
 
-    assert actual_class
+    assert actual_class == "alert py-2 alert-success"
 
     # phone
     wait = WebDriverWait(driver, 20)
@@ -110,7 +110,7 @@ def test_form():
     actual_class = phone_element.get_attribute("class")
     print(f"Status phone: {actual_class}") # вывод в консоль
 
-    assert actual_class
+    assert actual_class == "alert py-2 alert-success"
 
     # job-position
     wait = WebDriverWait(driver, 20)
@@ -118,7 +118,7 @@ def test_form():
     actual_class = job_position_element.get_attribute("class")
     print(f"Status job-position: {actual_class}") # вывод в консоль
 
-    assert actual_class
+    assert actual_class == "alert py-2 alert-success"
 
     # company
     wait = WebDriverWait(driver, 20)
@@ -126,7 +126,7 @@ def test_form():
     actual_class = company_element.get_attribute("class")
     print(f"Status company: {actual_class}") # вывод в консоль
 
-    assert actual_class
+    assert actual_class == "alert py-2 alert-success"
 
     # Закройте браузер
     driver.quit()
