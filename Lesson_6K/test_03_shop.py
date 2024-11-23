@@ -34,7 +34,7 @@ def test_form():
     checkout_button = wait.until(EC.element_to_be_clickable((By.ID, "checkout")))
     checkout_button.click()
 
-    # Заполнение формы (замените на ваши данные)
+    # Заполнение формы
     firstname_field = driver.find_element(By.ID, "first-name")
     firstname_field.send_keys("Тест") # Имя
     lastname_field = driver.find_element(By.ID, "last-name")
